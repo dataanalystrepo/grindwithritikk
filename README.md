@@ -37,3 +37,6 @@ Browsers block `posts.json` when opening the file directly. Run `python3 -m http
 
 ## Contact form
 It opens the visitor's email app addressed to the email set in `const MAIL` inside `index.html`. For messages saved to an inbox automatically, connect a form service such as Formspree.
+
+## Admin page (add posts from the website)
+`admin.html` lets you add, edit and delete posts from a form. Open `https://<your-username>.github.io/<repo-name>/admin.html`, paste a fine-grained GitHub token (Contents: Read and write, only for this repo) and use the form. Each change is saved to `posts.json` automatically. The token stays in your browser only.
