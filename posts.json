@@ -183,17 +183,6 @@
       "desc": "[Motivation] Towards Data Science. An older but honest account of proving yourself without prior experience. An evergreen read.",
       "url": "https://towardsdatascience.com/how-does-it-feel-like-to-make-a-career-change-to-become-a-data-scientist-c2b261111b3b/",
       "date": "2026-10-11"
-    },
-    {
-      "id": "s3",
-      "type": "job",
-      "title": "Junior Data Analyst (sample)",
-      "company": "Example Corp",
-      "loc": "Remote, India",
-      "level": "Fresher",
-      "desc": "Sample job card. Add real job links daily.",
-      "url": "",
-      "date": "2026-10-11"
     }
   ]
 }
