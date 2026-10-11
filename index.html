@@ -117,19 +117,38 @@ function about(){
 }
 
 const MAIL='skillwithfitness@gmail.com';
+const FORM_ENDPOINT=''; // paste your Formspree URL here, e.g. https://formspree.io/f/abcd1234
 function contact(){
   const name=h('input',{placeholder:'Your name',required:true});
   const ig=h('input',{placeholder:'Instagram handle (optional)'});
   const em=h('input',{type:'email',placeholder:'Your email (so I can reply)',required:true});
   const topic=h('select',{},...['Interview help','Job query','Collaboration','Other'].map(v=>h('option',{value:v},v)));
   const msg=h('textarea',{rows:6,placeholder:'Write your query here',required:true});
-  const form=h('form',{class:'cform',onsubmit:e=>{e.preventDefault();
-    const body=['Name: '+name.value,'Instagram: '+(ig.value||'-'),'Email: '+em.value,'','Query:',msg.value].join('\n');
-    const url='mailto:'+MAIL+'?subject='+encodeURIComponent('['+topic.value+'] from '+name.value)+'&body='+encodeURIComponent(body);
-    const a=h('a',{href:url,target:'_blank',rel:'noopener'});document.body.append(a);a.click();a.remove()}},
-    name,ig,em,topic,msg,
-    h('div',{class:'row'},h('button',{class:'btn',type:'submit'},'Send message'),h('a',{class:'btn alt',href:'https://ig.me/m/grindwithritikk',target:'_blank',rel:'noopener noreferrer'},'DM on Instagram')),
-    h('p',{class:'note'},'This opens your email app with the message ready to send. If nothing opens, email me directly at '+MAIL+'.'));
+  const btn=h('button',{class:'btn',type:'submit'},'Send message');
+  const status=h('p',{class:'note'});
+  const subject=()=>'['+topic.value+'] from '+name.value;
+  const text=()=>['Name: '+name.value,'Instagram: '+(ig.value||'-'),'Email: '+em.value,'','Query:',msg.value].join('\n');
+  const gmail=h('a',{class:'btn alt sm',target:'_blank',rel:'noopener noreferrer'},'Open in Gmail');
+  const copy=h('button',{class:'btn alt sm',type:'button',onclick:async()=>{
+    try{await navigator.clipboard.writeText('To: '+MAIL+'\nSubject: '+subject()+'\n\n'+text());status.textContent='Copied! Paste it into an email to '+MAIL+'.'}
+    catch(e){status.textContent='Could not copy. Please email '+MAIL+' directly.'}}},'Copy message');
+  const alt=h('div',{class:'row',style:'display:none'},gmail,copy);
+  const showAlt=()=>{gmail.href='https://mail.google.com/mail/?view=cm&fs=1&to='+encodeURIComponent(MAIL)+'&su='+encodeURIComponent(subject())+'&body='+encodeURIComponent(text());alt.style.display='flex'};
+  const form=h('form',{class:'cform',onsubmit:async e=>{
+    e.preventDefault();
+    if(FORM_ENDPOINT){
+      btn.disabled=true;status.textContent='Sending...';
+      try{
+        const r=await fetch(FORM_ENDPOINT,{method:'POST',headers:{'Content-Type':'application/json',Accept:'application/json'},body:JSON.stringify({name:name.value,instagram:ig.value||'-',email:em.value,topic:topic.value,message:msg.value,_subject:subject(),_replyto:em.value})});
+        if(!r.ok)throw new Error('failed');
+        form.reset();alt.style.display='none';status.textContent='Thank you! Your message was sent. I will reply to your email soon.';
+      }catch(x){status.textContent='Could not send right now. Use one of the options below, or email '+MAIL+'.';showAlt()}
+      btn.disabled=false;return;
+    }
+    showAlt();
+    status.textContent='Opening your email app... If nothing opens, use Open in Gmail or Copy message below.';
+    location.href='mailto:'+MAIL+'?subject='+encodeURIComponent(subject())+'&body='+encodeURIComponent(text());
+  }},name,ig,em,topic,msg,btn,status,alt);
   return h('div',{},h('h2',{style:'margin-top:0'},'Contact me'),h('p',{class:'desc'},'Have a doubt or need help with interview prep, jobs or collaboration? Fill in your details and query below.'),form);
 }
 
