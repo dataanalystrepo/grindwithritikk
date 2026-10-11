@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Admin · Grind With Ritik</title>
+<style>
+:root{--bg:#fafaf7;--fg:#16181d;--mut:#656b76;--card:#fff;--bd:#e3e3dc;--ac:#ff5a36}
+@media (prefers-color-scheme:dark){:root{--bg:#0f1115;--fg:#eceef2;--mut:#9aa1ad;--card:#181b22;--bd:#2a2e38;--ac:#ff7a5c}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:720px;margin:auto;padding:20px 16px 60px}
+h1{font-size:24px;margin:0 0 4px}h2{font-size:18px;margin:28px 0 10px}
+.mut{color:var(--mut);font-size:14px}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:14px;padding:16px;display:grid;gap:10px;margin-top:14px}
+input,select,textarea{font:inherit;padding:9px 12px;border-radius:10px;border:1px solid var(--bd);background:var(--bg);color:var(--fg);width:100%}
+.btn{padding:9px 16px;border-radius:10px;background:var(--ac);color:#fff;border:0;font:inherit;font-size:14px;font-weight:600;cursor:pointer}
+.btn.alt{background:transparent;color:var(--fg);border:1px solid var(--bd)}.btn.sm{padding:5px 10px;font-size:13px}
+.btn:disabled{opacity:.6}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.item{display:flex;gap:10px;justify-content:space-between;align-items:center;border-bottom:1px solid var(--bd);padding:10px 0}
+.item b{display:block;font-size:15px}
+.tag{font-size:11px;padding:1px 7px;border-radius:99px;background:var(--bd);margin-right:6px}
+#msg{position:sticky;top:0;padding:10px 14px;border-radius:10px;margin-top:12px;display:none;font-size:14px}
+#msg.ok{display:block;background:#dff5e1;color:#14532d}#msg.err{display:block;background:#fde2e2;color:#7f1d1d}
+#jobf{display:none;gap:10px;grid-template-columns:1fr 1fr}
+</style>
+</head>
+<body>
+<main>
+<h1>Admin</h1>
+<p class="mut">Add, edit and delete posts on your site. Changes are saved straight to <code>posts.json</code> in your GitHub repo.</p>
+<div id="msg"></div>
+
+<section id="login" class="card">
+  <b>Connect to GitHub</b>
+  <p class="mut" style="margin:0">Paste your fine-grained access token (Contents: Read and write, for this repo only). It is stored only in this browser.</p>
+  <input id="tok" type="password" placeholder="github_pat_..." autocomplete="off">
+  <div class="row"><button class="btn" id="connect">Connect</button></div>
+</section>
+
+<div id="panel" style="display:none">
+  <form id="form" class="card">
+    <b id="ftitle">New post</b>
+    <select id="f-type"><option value="note">Note</option><option value="article">Article</option><option value="job">Job</option><option value="resource">Resource</option></select>
+    <input id="f-title" placeholder="Title" required>
+    <textarea id="f-desc" rows="5" placeholder="Description / note text"></textarea>
+    <input id="f-url" placeholder="Link (https://...) optional">
+    <div id="jobf"><input id="f-company" placeholder="Company"><input id="f-loc" placeholder="Location">
+      <select id="f-level" style="grid-column:1/3"><option>Fresher</option><option>Experienced</option></select></div>
+    <div class="row"><button class="btn" id="save" type="submit">Publish post</button><button class="btn alt" id="cancel" type="button" style="display:none">Cancel edit</button></div>
+  </form>
+  <h2>All posts <span class="mut" id="count"></span></h2>
+  <div id="list"></div>
+  <p class="row" style="margin-top:24px"><a class="btn alt sm" id="view" href="./">View site</a><button class="btn alt sm" id="out">Disconnect</button></p>
+</div>
+</main>
+
+<script>
+const OWNER='dataanalystrepo',REPO='grindwithritikk',BRANCH='main',FILE='posts.json';
+const API=`https://api.github.com/repos/${OWNER}/${REPO}/contents/${FILE}`;
+const $=id=>document.getElementById(id);
+const safe=u=>/^https?:\/\//i.test(u||'');
+let tok='',sha='',data={posts:[]},editing=null;
+try{tok=localStorage.getItem('gh_token')||''}catch(e){}
+
+const hd=()=>({Authorization:'Bearer '+tok,Accept:'application/vnd.github+json'});
+const say=(t,ok=true)=>{const m=$('msg');m.textContent=t;m.className=ok?'ok':'err';clearTimeout(say.t);if(ok)say.t=setTimeout(()=>m.className='',4000)};
+
+async function load(){
+  const r=await fetch(API+'?ref='+BRANCH+'&t='+Date.now(),{headers:hd(),cache:'no-store'});
+  if(!r.ok)throw new Error(r.status===401?'Token is invalid or expired.':r.status===404?'Repo or posts.json not found. Check the token has access to this repo.':'GitHub error '+r.status);
+  const j=await r.json();sha=j.sha;
+  const bin=atob(j.content.replace(/\s/g,''));
+  data=JSON.parse(new TextDecoder().decode(Uint8Array.from(bin,c=>c.charCodeAt(0))));
+  if(!Array.isArray(data.posts))data.posts=[];
+}
+async function commit(msg){
+  const bytes=new TextEncoder().encode(JSON.stringify(data,null,2)+'\n');
+  let s='';bytes.forEach(b=>s+=String.fromCharCode(b));
+  const r=await fetch(API,{method:'PUT',headers:{...hd(),'Content-Type':'application/json'},body:JSON.stringify({message:msg,content:btoa(s),sha,branch:BRANCH})});
+  if(!r.ok){
+    if(r.status===409||r.status===422){await load();draw();throw new Error('The file changed on GitHub. I reloaded it, please try again.')}
+    throw new Error(r.status===403||r.status===401?'No permission. The token needs Contents: Read and write.':'GitHub error '+r.status);
+  }
+  sha=(await r.json()).content.sha;
+}
+
+function el(t,a={},...k){const e=document.createElement(t);for(const[x,v]of Object.entries(a)){if(x==='class')e.className=v;else if(x.startsWith('on'))e[x]=v;else e.setAttribute(x,v)}k.flat().forEach(c=>e.append(c instanceof Node?c:document.createTextNode(c)));return e}
+function draw(){
+  $('count').textContent='('+data.posts.length+')';
+  const L=$('list');L.replaceChildren();
+  if(!data.posts.length)L.append(el('p',{class:'mut'},'No posts yet.'));
+  data.posts.forEach(p=>L.append(el('div',{class:'item'},
+    el('div',{},el('b',{},p.title),el('span',{class:'tag'},p.type),el('span',{class:'mut'},p.date||'')),
+    el('div',{class:'row'},el('button',{class:'btn alt sm',onclick:()=>edit(p.id)},'Edit'),el('button',{class:'btn alt sm',onclick:()=>del(p.id)},'Delete')))));
+}
+function show(on){$('login').style.display=on?'none':'grid';$('panel').style.display=on?'block':'none'}
+function reset(){editing=null;$('form').reset();$('jobf').style.display='none';$('ftitle').textContent='New post';$('save').textContent='Publish post';$('cancel').style.display='none'}
+function edit(id){
+  const p=data.posts.find(x=>x.id===id);if(!p)return;editing=id;
+  $('f-type').value=p.type;$('f-title').value=p.title||'';$('f-desc').value=p.desc||'';$('f-url').value=p.url||'';
+  $('jobf').style.display=p.type==='job'?'grid':'none';
+  $('f-company').value=p.company||'';$('f-loc').value=p.loc||'';$('f-level').value=p.level||'Fresher';
+  $('ftitle').textContent='Edit post';$('save').textContent='Save changes';$('cancel').style.display='inline-block';scrollTo(0,0);
+}
+async function del(id){
+  if(!confirm('Delete this post?'))return;
+  const old=data.posts;data.posts=old.filter(p=>p.id!==id);
+  try{await commit('Delete post');draw();say('Deleted. The site updates in about a minute.')}catch(e){data.posts=old;draw();say(e.message,false)}
+}
+$('f-type').onchange=e=>{$('jobf').style.display=e.target.value==='job'?'grid':'none'};
+$('cancel').onclick=reset;
+$('form').onsubmit=async e=>{
+  e.preventDefault();const t=$('f-type').value,url=$('f-url').value.trim();
+  if(url&&!safe(url))return say('Link must start with http:// or https://',false);
+  const p={id:editing||Date.now().toString(36),type:t,title:$('f-title').value.trim(),desc:$('f-desc').value.trim(),url,date:new Date().toISOString().slice(0,10)};
+  if(t==='job'){p.company=$('f-company').value.trim();p.loc=$('f-loc').value.trim();p.level=$('f-level').value}
+  const old=data.posts,btn=$('save');
+  if(editing){const o=old.find(x=>x.id===editing);if(o&&o.date)p.date=o.date;data.posts=old.map(x=>x.id===editing?p:x)}else data.posts=[p,...old];
+  btn.disabled=true;
+  try{await commit((editing?'Edit: ':'Add: ')+p.title);reset();draw();say('Saved. The site updates in about a minute.')}
+  catch(err){data.posts=old;draw();say(err.message,false)}
+  btn.disabled=false;
+};
+$('connect').onclick=async()=>{
+  tok=$('tok').value.trim();if(!tok)return say('Paste your token first.',false);
+  try{await load();try{localStorage.setItem('gh_token',tok)}catch(e){}$('tok').value='';show(true);draw();say('Connected.')}
+  catch(e){tok='';say(e.message,false)}
+};
+$('out').onclick=()=>{try{localStorage.removeItem('gh_token')}catch(e){}tok='';show(false);say('Disconnected.')};
+if(tok)load().then(()=>{show(true);draw()}).catch(e=>{say(e.message,false);tok=''});
+</script>
+</body>
+</html>
