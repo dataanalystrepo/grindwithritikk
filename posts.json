@@ -1,19 +1,187 @@
 {
   "posts": [
-    {"id": "py1", "type": "note", "title": "Python Notes", "desc": "Python notes.", "url": "https://docs.google.com/document/d/10ph5iTYCdEDEBDdi_2jmUyXH9nHeEj3vp-ofyqSA-cI/edit?usp=drivesdk", "date": "2026-10-11"},
-    {"id": "sql-d1", "type": "note", "title": "SQL Notes - Day 1", "desc": "Day 1 of the 7-day SQL series.", "url": "https://docs.google.com/document/d/10ph5iTYCdEDEBDdi_2jmUyXH9nHeEj3vp-ofyqSA-cI/edit?usp=drivesdk", "date": "2026-10-11"},
-    {"id": "sql-d2", "type": "note", "title": "SQL Notes - Day 2", "desc": "Day 2 of the 7-day SQL series.", "url": "https://docs.google.com/document/d/10ph5iTYCdEDEBDdi_2jmUyXH9nHeEj3vp-ofyqSA-cI/edit?usp=drivesdk", "date": "2026-10-11"},
-    {"id": "sql-d3", "type": "note", "title": "SQL Notes - Day 3", "desc": "Day 3 of the 7-day SQL series.", "url": "https://docs.google.com/document/d/143i-4e5YlrUxyruKbpEnBsnG1vY7OrM2Ixh8YVYmbFI/edit?usp=drivesdk", "date": "2026-10-11"},
-    {"id": "sql-d4", "type": "note", "title": "SQL Notes - Day 4", "desc": "Day 4 of the 7-day SQL series.", "url": "https://docs.google.com/document/d/14lmQ4ShzbANvQnU0Z2y9dX4MQ5tFesydUDCWt5bNcoo/edit?usp=drivesdk", "date": "2026-10-11"},
-    {"id": "sql-d5", "type": "note", "title": "SQL Notes - Day 5", "desc": "Day 5 of the 7-day SQL series.", "url": "https://docs.google.com/document/d/17ppq7MnB4lkZZUX1WKUGoJfvCgmEj2BKDcjW3s_iQdw/edit?usp=drivesdk", "date": "2026-10-11"},
-    {"id": "sql-d6", "type": "note", "title": "SQL Notes - Day 6", "desc": "Day 6 of the 7-day SQL series.", "url": "https://docs.google.com/document/d/18B3Viyf9lRHphDKyIWyv_ht5G5Arrb4QmxmCWO3cHOU/edit?usp=drivesdk", "date": "2026-10-11"},
-    {"id": "sql-d7", "type": "note", "title": "SQL Notes - Day 7", "desc": "Day 7 of the 7-day SQL series.", "url": "https://docs.google.com/document/d/18HjGjLh3nzutaqpzpDPXun8s2f-F0mMr2F4ia0WYZ1Q/edit?usp=drivesdk", "date": "2026-10-11"},
     {
-      "id": "s2",
+      "id": "py1",
+      "type": "note",
+      "title": "Python Notes",
+      "desc": "Python notes.",
+      "url": "https://docs.google.com/document/d/10ph5iTYCdEDEBDdi_2jmUyXH9nHeEj3vp-ofyqSA-cI/edit?usp=drivesdk",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "sql-d1",
+      "type": "note",
+      "title": "SQL Notes - Day 1",
+      "desc": "Day 1 of the 7-day SQL series.",
+      "url": "https://docs.google.com/document/d/10ph5iTYCdEDEBDdi_2jmUyXH9nHeEj3vp-ofyqSA-cI/edit?usp=drivesdk",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "sql-d2",
+      "type": "note",
+      "title": "SQL Notes - Day 2",
+      "desc": "Day 2 of the 7-day SQL series.",
+      "url": "https://docs.google.com/document/d/10ph5iTYCdEDEBDdi_2jmUyXH9nHeEj3vp-ofyqSA-cI/edit?usp=drivesdk",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "sql-d3",
+      "type": "note",
+      "title": "SQL Notes - Day 3",
+      "desc": "Day 3 of the 7-day SQL series.",
+      "url": "https://docs.google.com/document/d/143i-4e5YlrUxyruKbpEnBsnG1vY7OrM2Ixh8YVYmbFI/edit?usp=drivesdk",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "sql-d4",
+      "type": "note",
+      "title": "SQL Notes - Day 4",
+      "desc": "Day 4 of the 7-day SQL series.",
+      "url": "https://docs.google.com/document/d/14lmQ4ShzbANvQnU0Z2y9dX4MQ5tFesydUDCWt5bNcoo/edit?usp=drivesdk",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "sql-d5",
+      "type": "note",
+      "title": "SQL Notes - Day 5",
+      "desc": "Day 5 of the 7-day SQL series.",
+      "url": "https://docs.google.com/document/d/17ppq7MnB4lkZZUX1WKUGoJfvCgmEj2BKDcjW3s_iQdw/edit?usp=drivesdk",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "sql-d6",
+      "type": "note",
+      "title": "SQL Notes - Day 6",
+      "desc": "Day 6 of the 7-day SQL series.",
+      "url": "https://docs.google.com/document/d/18B3Viyf9lRHphDKyIWyv_ht5G5Arrb4QmxmCWO3cHOU/edit?usp=drivesdk",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "sql-d7",
+      "type": "note",
+      "title": "SQL Notes - Day 7",
+      "desc": "Day 7 of the 7-day SQL series.",
+      "url": "https://docs.google.com/document/d/18HjGjLh3nzutaqpzpDPXun8s2f-F0mMr2F4ia0WYZ1Q/edit?usp=drivesdk",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "art1",
       "type": "article",
-      "title": "How to prepare for a Data Analyst interview (sample)",
-      "desc": "Add your article link here. Delete these samples with the Delete button when you post your own.",
-      "url": "https://instagram.com/grindwithritikk",
+      "title": "Stanford AI Index 2026: 12 Key Takeaways",
+      "desc": "[AI] Stanford HAI. The year's biggest AI trends in one place, including how AI is affecting work and how experts and the public see it differently.",
+      "url": "https://hai.stanford.edu/news/inside-the-ai-index-12-takeaways-from-the-2026-report?locale=en",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "art2",
+      "type": "article",
+      "title": "How AI Agents Will Transform Data Science Work in 2026",
+      "desc": "[AI] KDnuggets. How AI agents take over data prep and routine analysis, and why oversight, business sense and clear communication matter more.",
+      "url": "https://www.kdnuggets.com/how-ai-agents-will-transform-data-science-work-in-2026",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "art3",
+      "type": "article",
+      "title": "The Fastest Growing (and Declining) Jobs by 2030",
+      "desc": "[Job Market] World Economic Forum findings, reported by Yahoo. Data analysts, big data specialists and related tech roles appear among the fastest-growing jobs worldwide.",
+      "url": "https://www.yahoo.com/news/fastest-growing-declining-jobs-2030-211051258.html",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "art4",
+      "type": "article",
+      "title": "Naukri JobSpeak June 2026: India Hiring Report",
+      "desc": "[Job Market] Angel One. India's monthly white-collar hiring snapshot, with growth in AI roles and mixed trends across sectors.",
+      "url": "https://www.angelone.in/news/stocks/info-edge-releases-june-2026-naukri-jobspeak-report-white-collar-hiring-improves-across-key-sectors",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "art5",
+      "type": "article",
+      "title": "India Job Market 2026: What the Latest Data Shows",
+      "desc": "[Job Market] Masai School. A readable summary of Naukri JobSpeak and other hiring trackers, and which sectors are hiring.",
+      "url": "https://www.masaischool.com/blog/india-job-market-2026-what-the-latest-data-shows/",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "art6",
+      "type": "article",
+      "title": "Will AI Replace Data Analysts? The 2026 Reality",
+      "desc": "[AI] Improvado (a vendor blog). Argues AI handles routine analysis while framing questions, communicating and validating AI output stay human jobs.",
+      "url": "https://improvado.io/blog/will-ai-replace-data-analysts",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "art7",
+      "type": "article",
+      "title": "AI Agents Are Changing Data Analytics: What to Learn in 2026",
+      "desc": "[AI] PW Skills. Which skills matter as AI agents spread, including prompts, data storytelling and automation, and why SQL and clean data still matter.",
+      "url": "https://pwskills.com/blog/data-analytics/ai-agents-are-changing-data-analytics",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "art8",
+      "type": "article",
+      "title": "How AI Is Changing Data Analytics (and the Skills to Learn)",
+      "desc": "[Skills] SkillScouter. Text-to-SQL and AI copilots in practice, and why checking AI-written SQL is now a core skill.",
+      "url": "https://skillscouter.com/how-ai-is-changing-data-analytics/",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "art9",
+      "type": "article",
+      "title": "Will AI Replace Data Analysts? What Actually Changes",
+      "desc": "[AI] Querio (a vendor blog). Which parts of an analyst's work AI speeds up, and why a review step for AI output matters.",
+      "url": "https://querio.ai/articles/will-ai-replace-data-analysts-what-changes",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "art10",
+      "type": "article",
+      "title": "Data Analyst Jobs in India 2026: Salary, Skills and Hiring",
+      "desc": "[Job Market] Vskills. Which tools show up most in India job postings (Excel, SQL, Power BI, Python) and the fresher hiring picture. Cross-check the figures with other sources.",
+      "url": "https://www.vskills.in/certification/blog/data-analyst-jobs-in-2026-real-salary-skills-and-hiring-numbers-nobodys-telling-you/",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "art11",
+      "type": "article",
+      "title": "Data Analyst Jobs for Freshers in 2026: Who Is Hiring",
+      "desc": "[Job Market] Imarticus. The kinds of employers hiring fresher analysts in India, from IT services firms to GCCs and BFSI companies.",
+      "url": "https://imarticus.org/blog/data-analyst-jobs-for-freshers/",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "art12",
+      "type": "article",
+      "title": "Power BI July 2026 Feature Summary",
+      "desc": "[Skills] Microsoft. What is new in Power BI this month, so your dashboards and interview answers stay current.",
+      "url": "https://community.fabric.microsoft.com/t5/Power-BI-Updates-Blog/Power-BI-July-2026-Feature-Summary/ba-p/5303533",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "art13",
+      "type": "article",
+      "title": "Portfolio Projects for Entry-Level Data Roles",
+      "desc": "[Skills] Treehouse. Which projects actually help you get hired, and why end-to-end projects beat single-tool exercises.",
+      "url": "https://blog.teamtreehouse.com/portfolio-projects-for-entry-level-data-roles",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "art14",
+      "type": "article",
+      "title": "Starting a New Career at 30: How Julian Became a Data Analyst",
+      "desc": "[Motivation] CareerFoundry. A career-change story that covers imposter syndrome and starting over (a bootcamp's own graduate story).",
+      "url": "https://careerfoundry.com/en/blog/student-stories/starting-a-new-career-at-30/",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "art15",
+      "type": "article",
+      "title": "How It Feels to Make a Career Change into Data Science",
+      "desc": "[Motivation] Towards Data Science. An older but honest account of proving yourself without prior experience. An evergreen read.",
+      "url": "https://towardsdatascience.com/how-does-it-feel-like-to-make-a-career-change-to-become-a-data-scientist-c2b261111b3b/",
       "date": "2026-10-11"
     },
     {
