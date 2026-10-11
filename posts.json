@@ -1,0 +1,31 @@
+{
+  "posts": [
+    {
+      "id": "s1",
+      "type": "note",
+      "title": "SQL Joins in 60 seconds (sample)",
+      "desc": "INNER JOIN: only matching rows.\nLEFT JOIN: all left rows + matches (NULL if none).\nRIGHT JOIN: mirror of LEFT.\nFULL JOIN: everything from both sides.\nTip: always say which column you join on and why.",
+      "url": "",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "s2",
+      "type": "article",
+      "title": "How to prepare for a Data Analyst interview (sample)",
+      "desc": "Add your article link here. Delete these samples with the Delete button when you post your own.",
+      "url": "https://instagram.com/grindwithritikk",
+      "date": "2026-10-11"
+    },
+    {
+      "id": "s3",
+      "type": "job",
+      "title": "Junior Data Analyst (sample)",
+      "company": "Example Corp",
+      "loc": "Remote, India",
+      "level": "Fresher",
+      "desc": "Sample job card. Add real job links daily.",
+      "url": "",
+      "date": "2026-10-11"
+    }
+  ]
+}

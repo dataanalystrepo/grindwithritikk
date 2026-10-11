@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Grind With Ritik</title>
+<style>
+:root{--bg:#fafaf7;--fg:#16181d;--mut:#656b76;--card:#fff;--bd:#e3e3dc;--ac:#ff5a36;--ac2:#1d4ed8;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f1115;--fg:#eceef2;--mut:#9aa1ad;--card:#181b22;--bd:#2a2e38;--ac:#ff7a5c;--ac2:#7aa2ff}}
+:root[data-theme="dark"]{--bg:#0f1115;--fg:#eceef2;--mut:#9aa1ad;--card:#181b22;--bd:#2a2e38;--ac:#ff7a5c;--ac2:#7aa2ff}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+a{color:inherit}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--bd)}
+.bar{max-width:980px;margin:auto;padding:10px 16px;display:flex;gap:16px;align-items:center}
+.brand{font-weight:800;font-size:18px;text-decoration:none;white-space:nowrap}.brand b{color:var(--ac)}
+nav{display:flex;gap:4px;overflow-x:auto;flex:1}
+nav a{padding:6px 12px;border-radius:99px;text-decoration:none;color:var(--mut);font-size:14px;white-space:nowrap}
+nav a.on{background:var(--fg);color:var(--bg)}
+main{max-width:980px;margin:auto;padding:24px 16px 80px}
+.hero{padding:28px 0 12px}.hero h1{font-size:clamp(30px,6vw,52px);line-height:1.1;margin:0 0 12px}
+.hero h1 span{color:var(--ac)}.hero p{color:var(--mut);max-width:560px;margin:0 0 20px}
+.btn{display:inline-block;padding:9px 16px;border-radius:10px;background:var(--ac);color:#fff;text-decoration:none;border:0;font:inherit;font-size:14px;font-weight:600;cursor:pointer}
+.btn.alt{background:transparent;color:var(--fg);border:1px solid var(--bd)}.btn.sm{padding:6px 12px;font-size:13px}
+.row{display:flex;gap:10px;flex-wrap:wrap}
+h2{margin:32px 0 12px;font-size:22px}
+.grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fill,minmax(260px,1fr))}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:14px;padding:16px;display:flex;flex-direction:column;gap:8px}
+.card h3{margin:0;font-size:17px;line-height:1.3}.card p{margin:0}
+.desc{color:var(--mut);white-space:pre-wrap;font-size:15px}.sub{color:var(--ac2);font-size:14px;font-weight:600}
+.meta{display:flex;justify-content:space-between;font-size:12px;color:var(--mut)}
+.tag{padding:2px 8px;border-radius:99px;background:var(--bd);color:var(--fg);font-weight:600}
+.cat{cursor:pointer;text-decoration:none}.cat .n{font-size:30px;font-weight:800;color:var(--ac)}
+.tools{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:16px}
+input,select,textarea{font:inherit;padding:9px 12px;border-radius:10px;border:1px solid var(--bd);background:var(--card);color:var(--fg);width:100%}
+.tools input{flex:1;min-width:180px;width:auto}.tools select{width:auto}
+.empty{color:var(--mut);padding:30px 0;text-align:center}
+.cform{display:grid;gap:10px;max-width:520px}.note{color:var(--mut);font-size:13px}
+.road label{display:flex;gap:10px;align-items:center;padding:8px 0;border-bottom:1px solid var(--bd);cursor:pointer}
+.road input{width:auto}
+#fab{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));box-shadow:0 4px 14px rgba(0,0,0,.25)}
+#panel{position:fixed;inset:0;background:rgba(0,0,0,.5);display:none;align-items:flex-end;justify-content:center;z-index:9}
+#panel.open{display:flex}
+#panel form{background:var(--card);width:100%;max-width:520px;max-height:90%;overflow:auto;border-radius:16px 16px 0 0;padding:18px;display:grid;gap:10px}
+footer{border-top:1px solid var(--bd);padding:20px 16px;text-align:center;color:var(--mut);font-size:14px}
+</style>
+</head>
+<body>
+<header><div class="bar"><a class="brand" href="#home">Grind With <b>Ritik</b></a>
+<nav id="nav"></nav></div></header>
+<main id="app"></main>
+<footer>© Grind With Ritik · <a href="https://instagram.com/grindwithritikk" target="_blank" rel="noopener noreferrer">@grindwithritikk</a></footer>
+
+
+
+<script>
+let S={posts:[]};
+const T={note:'Notes',article:'Articles',job:'Jobs',resource:'Resources'};
+const ONE={note:'Note',article:'Article',job:'Job',resource:'Resource'};
+const NAV=[['home','Home'],['note','Notes'],['article','Articles'],['job','Jobs'],['resource','Resources'],['contact','Contact'],['about','About']];
+let admin=false,art=null,q='',lvl='all';
+const $=id=>document.getElementById(id);
+const h=(t,a={},...k)=>{const e=document.createElement(t);for(const[x,v]of Object.entries(a)){if(x==='class')e.className=v;else if(x.startsWith('on'))e[x]=v;else if(v!=null&&v!==false)e.setAttribute(x,v)}k.flat().forEach(c=>e.append(c instanceof Node?c:document.createTextNode(c==null?'':c)));return e};
+const safe=u=>/^https?:\/\//i.test(u||'')?u:null;
+const route=()=>(location.hash.slice(1)||'home');
+
+function card(p){
+  const u=safe(p.url);
+  return h('article',{class:'card'},
+    h('div',{class:'meta'},h('span',{class:'tag'},ONE[p.type]),h('span',{},p.date)),
+    h('h3',{},p.title),
+    p.type==='job'?h('p',{class:'sub'},[p.company,p.loc,p.level].filter(Boolean).join(' · ')):'',
+    p.desc?h('p',{class:'desc'},p.desc):'',
+    h('div',{class:'row'},
+      u?h('a',{class:'btn sm',href:u,target:'_blank',rel:'noopener noreferrer'},p.type==='job'?'Apply →':'Open →'):'',
+      admin?h('button',{class:'btn sm alt',onclick:()=>del(p.id)},'Delete'):''));
+}
+
+function list(type){
+  const wrap=h('div',{});
+  const inp=h('input',{placeholder:'Search '+T[type].toLowerCase()+'...',value:q});
+  const tools=h('div',{class:'tools'},inp);
+  if(type==='job'){const s=h('select',{onchange:e=>{lvl=e.target.value;draw()}},
+    ...['all','Fresher','Experienced'].map(v=>h('option',{value:v,selected:v===lvl},v==='all'?'All levels':v)));tools.append(s)}
+  const grid=h('div',{class:'grid'});
+  const fill=()=>{grid.replaceChildren();const t=q.toLowerCase();
+    const r=S.posts.filter(p=>p.type===type&&(lvl==='all'||type!=='job'||p.level===lvl)&&(!t||[p.title,p.desc,p.company,p.loc].join(' ').toLowerCase().includes(t)));
+    if(!r.length)grid.append(h('p',{class:'empty'},'Nothing here yet. Check back soon!'));else r.forEach(p=>grid.append(card(p)))};
+  inp.oninput=e=>{q=e.target.value;fill()};
+  fill();wrap.append(tools,grid);return wrap;
+}
+
+const ROAD=['Excel: formulas, pivots, lookups','SQL: joins, window functions, CTEs','Statistics basics','Power BI or Tableau dashboards','Python: pandas, visualisation','2-3 portfolio projects','Resume and LinkedIn polish','Mock interviews and case questions'];
+function roadmap(){
+  let done=[];try{done=JSON.parse(localStorage.getItem('road')||'[]')}catch(e){}
+  return h('div',{class:'card road'},h('h3',{},'Data Analyst roadmap checklist'),
+    ...ROAD.map((t,i)=>h('label',{},h('input',{type:'checkbox',checked:done.includes(i),onchange:e=>{
+      done=done.filter(x=>x!==i);if(e.target.checked)done.push(i);try{localStorage.setItem('road',JSON.stringify(done))}catch(x){}}}),t)));
+}
+
+function home(){
+  const latest=[...S.posts].sort((a,b)=>b.date.localeCompare(a.date)).slice(0,6);
+  return h('div',{},
+    h('section',{class:'hero'},h('h1',{},'Land your ',h('span',{},'Data Analytics'),' job.'),
+      h('p',{},'Daily notes, articles, interview prep and fresh job links, all in one place. Updated every day.'),
+      h('div',{class:'row'},h('a',{class:'btn',href:'https://instagram.com/grindwithritikk',target:'_blank',rel:'noopener noreferrer'},'Follow @grindwithritikk'),h('a',{class:'btn alt',href:'#job'},'Browse jobs'))),
+    h('div',{class:'grid'},...['note','article','job','resource'].map(t=>
+      h('a',{class:'card cat',href:'#'+t},h('div',{class:'n'},S.posts.filter(p=>p.type===t).length),h('h3',{},T[t])))),
+    h('h2',{},'Latest updates'),h('div',{class:'grid'},...latest.map(card)));
+}
+
+function about(){
+  return h('div',{},h('h2',{},'About'),
+    h('p',{class:'desc'},'I\'m Ritik. On Instagram (@grindwithritikk) I share data analytics content and everything that helps you get an IT job: notes, interview questions, articles and job openings. This site keeps it all organised so you can search and revisit it any time.'),
+    h('p',{},h('a',{class:'btn',href:'https://instagram.com/grindwithritikk',target:'_blank',rel:'noopener noreferrer'},'Message me on Instagram')));
+}
+
+const MAIL='skillwithfitness@gmail.com';
+function contact(){
+  const name=h('input',{placeholder:'Your name',required:true});
+  const ig=h('input',{placeholder:'Instagram handle (optional)'});
+  const em=h('input',{type:'email',placeholder:'Your email (so I can reply)',required:true});
+  const topic=h('select',{},...['Interview help','Job query','Collaboration','Other'].map(v=>h('option',{value:v},v)));
+  const msg=h('textarea',{rows:6,placeholder:'Write your query here',required:true});
+  const form=h('form',{class:'cform',onsubmit:e=>{e.preventDefault();
+    const body=['Name: '+name.value,'Instagram: '+(ig.value||'-'),'Email: '+em.value,'','Query:',msg.value].join('\n');
+    const url='mailto:'+MAIL+'?subject='+encodeURIComponent('['+topic.value+'] from '+name.value)+'&body='+encodeURIComponent(body);
+    const a=h('a',{href:url,target:'_blank',rel:'noopener'});document.body.append(a);a.click();a.remove()}},
+    name,ig,em,topic,msg,
+    h('div',{class:'row'},h('button',{class:'btn',type:'submit'},'Send message'),h('a',{class:'btn alt',href:'https://ig.me/m/grindwithritikk',target:'_blank',rel:'noopener noreferrer'},'DM on Instagram')),
+    h('p',{class:'note'},'This opens your email app with the message ready to send. If nothing opens, email me directly at '+MAIL+'.'));
+  return h('div',{},h('h2',{style:'margin-top:0'},'Contact me'),h('p',{class:'desc'},'Have a doubt or need help with interview prep, jobs or collaboration? Fill in your details and query below.'),form);
+}
+
+function draw(){
+  const r=route();
+  $('nav').replaceChildren(...NAV.map(([k,l])=>h('a',{href:'#'+k,class:r===k?'on':''},l)));
+  const app=$('app');app.replaceChildren();
+  if(r==='home')app.append(home());
+  else if(r==='about')app.append(about());
+  else if(r==='contact')app.append(contact());
+  else if(T[r]){app.append(h('h2',{style:'margin-top:0'},T[r]));if(r==='resource')app.append(roadmap(),h('h2',{},'Shared resources'));app.append(list(r))}
+  else app.append(home());
+}
+window.addEventListener('hashchange',()=>{q='';lvl='all';draw();scrollTo(0,0)});
+
+draw();
+fetch('posts.json',{cache:'no-store'}).then(r=>r.json()).then(d=>{S=d;draw()}).catch(()=>{});
+</script>
+</body>
+</html>
