@@ -1,13 +1,13 @@
 {
   "posts": [
-    {
-      "id": "s1",
-      "type": "note",
-      "title": "SQL Joins in 60 seconds (sample)",
-      "desc": "INNER JOIN: only matching rows.\nLEFT JOIN: all left rows + matches (NULL if none).\nRIGHT JOIN: mirror of LEFT.\nFULL JOIN: everything from both sides.\nTip: always say which column you join on and why.",
-      "url": "",
-      "date": "2026-10-11"
-    },
+    {"id": "py1", "type": "note", "title": "Python Notes", "desc": "Python notes.", "url": "https://docs.google.com/document/d/10ph5iTYCdEDEBDdi_2jmUyXH9nHeEj3vp-ofyqSA-cI/edit?usp=drivesdk", "date": "2026-10-11"},
+    {"id": "sql-d1", "type": "note", "title": "SQL Notes - Day 1", "desc": "Day 1 of the 7-day SQL series.", "url": "https://docs.google.com/document/d/10ph5iTYCdEDEBDdi_2jmUyXH9nHeEj3vp-ofyqSA-cI/edit?usp=drivesdk", "date": "2026-10-11"},
+    {"id": "sql-d2", "type": "note", "title": "SQL Notes - Day 2", "desc": "Day 2 of the 7-day SQL series.", "url": "https://docs.google.com/document/d/10ph5iTYCdEDEBDdi_2jmUyXH9nHeEj3vp-ofyqSA-cI/edit?usp=drivesdk", "date": "2026-10-11"},
+    {"id": "sql-d3", "type": "note", "title": "SQL Notes - Day 3", "desc": "Day 3 of the 7-day SQL series.", "url": "https://docs.google.com/document/d/143i-4e5YlrUxyruKbpEnBsnG1vY7OrM2Ixh8YVYmbFI/edit?usp=drivesdk", "date": "2026-10-11"},
+    {"id": "sql-d4", "type": "note", "title": "SQL Notes - Day 4", "desc": "Day 4 of the 7-day SQL series.", "url": "https://docs.google.com/document/d/14lmQ4ShzbANvQnU0Z2y9dX4MQ5tFesydUDCWt5bNcoo/edit?usp=drivesdk", "date": "2026-10-11"},
+    {"id": "sql-d5", "type": "note", "title": "SQL Notes - Day 5", "desc": "Day 5 of the 7-day SQL series.", "url": "https://docs.google.com/document/d/17ppq7MnB4lkZZUX1WKUGoJfvCgmEj2BKDcjW3s_iQdw/edit?usp=drivesdk", "date": "2026-10-11"},
+    {"id": "sql-d6", "type": "note", "title": "SQL Notes - Day 6", "desc": "Day 6 of the 7-day SQL series.", "url": "https://docs.google.com/document/d/18B3Viyf9lRHphDKyIWyv_ht5G5Arrb4QmxmCWO3cHOU/edit?usp=drivesdk", "date": "2026-10-11"},
+    {"id": "sql-d7", "type": "note", "title": "SQL Notes - Day 7", "desc": "Day 7 of the 7-day SQL series.", "url": "https://docs.google.com/document/d/18HjGjLh3nzutaqpzpDPXun8s2f-F0mMr2F4ia0WYZ1Q/edit?usp=drivesdk", "date": "2026-10-11"},
     {
       "id": "s2",
       "type": "article",
