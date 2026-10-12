@@ -65,6 +65,38 @@
       "date": "2026-10-11"
     },
     {
+      "id": "res-sql",
+      "type": "resource",
+      "title": "SQL Interview Questions (90)",
+      "desc": "[Interview Prep] 60 hands-on problems with practice links and 30 theory questions. Filter by difficulty and topic, and tick off what you finish.",
+      "url": "https://dataanalystrepo.github.io/grindwithritikk/sql-questions.html",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "res-excel",
+      "type": "resource",
+      "title": "Excel Cheat Sheet (PDF)",
+      "desc": "[Cheat Sheet] Two pages with the formulas, shortcuts, pivot table steps and interview answers that analysts use most.",
+      "url": "https://dataanalystrepo.github.io/grindwithritikk/excel-cheat-sheet.pdf",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "res-resume",
+      "type": "resource",
+      "title": "Resume Template (Overleaf)",
+      "desc": "[Resume] A clean resume template on Overleaf. Open it, copy it to your own account, and replace the details with yours.",
+      "url": "https://www.overleaf.com/articles/sarvesh-parabs-resume/ykttqtjgwssv",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "res-tracker",
+      "type": "resource",
+      "title": "Job Search Tracker (Excel / Google Sheets)",
+      "desc": "[Tracker] Track every application, follow-up date and interview in one place, with status colours and a summary of your response rate. Works in Excel, or upload it to Google Sheets.",
+      "url": "https://dataanalystrepo.github.io/grindwithritikk/job-search-tracker.xlsx",
+      "date": "2026-10-12"
+    },
+    {
       "id": "art1",
       "type": "article",
       "title": "Stanford AI Index 2026: 12 Key Takeaways",
