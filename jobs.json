@@ -1,14 +1,104 @@
 {
-  "updated": "2026-10-23T03:00:18+00:00",
+  "updated": "2026-10-24T02:58:06+00:00",
   "jobs": [
     {
-      "id": "ajRKOXZLVV82UzZrZ3h6b0FBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTVFpmT0Rsc2MwVlVMWEZZVXpGc2IxUjRUVUU1UTI1RmQyUkVWV3hDV2pkSlkwMHlTRTFUYjJFM2VtbDFUa1l5VjNKUFZtOU1SMlpaYmpOU2FYZGFSSHBNVFdwaWNqTktOMDFUYVRscE4xSlNkR0Y2Vm5oWWRuaHdPR1JWUkVNME0xZHBSWGRtWmxKdWMwRkZabEkxTTNKQk5URnlOMFYwZFVoTlRqWTNhV1J4V2pRM2JHRVNGM1pqTTJGaGJ6STRTQzF1YlRWT2IxQjZUM1ZOTmtGckdpSkJSSE55T1daVFIxaFdkemd3UzJwb2EweDRjVmhTZVhBMGFsSnRWV3hYYnpSbg",
+      "id": "M1VlZVpZODNjRzI2WUNRQkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBURWhIYjFGUlJuZFRiVEJuTTJ0b2FXdFpjVkpOTUhaNlZubDVlWGxMT1dweWJETllYMVpYT0ZWVGRIRTFhbVpOU2tSWVpFbFdMV0pFY2kxSk1HVnZSV3h6YzFRMVgyRklORmRYVmxkb09WcHNia0pPU0ZkM1drZFZNMGxZYlZKZlZYSmplRWxITWt4ZmNHOVlaR3d4ZVc1Rk5qbGFRVzlUWWxwYU9UUnFSRTFmWkc4ek5Ya1NGM0pvTjJOaGNIcHpTRjkyWVRGelVWQnFOeTFHYTBFNEdpSkJSSE55T1daVFFrVndlVzVqVUZKM1ZFdHRRMUpoTUhwdVNFVk1hMXBsWkVKUg",
+      "title": "Senior Data Analyst_Tableau & Power BI",
+      "company": "Zorba AI",
+      "loc": "Bengaluru, Karnataka",
+      "level": "Experienced",
+      "source": "LinkedIn",
+      "url": "https://in.linkedin.com/jobs/view/senior-data-analyst-tableau-power-bi-at-zorba-ai-4481601035",
+      "date": "2026-10-23"
+    },
+    {
+      "id": "S2tpUUp1SHpScm9SQlBqQkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTMGQ1YlZaNlJYSm9kRjlRUzI4ellYaFNRWHB3VWtFMGJGRjRWbnAxWW10SWMyOXZaVzVwT1ZGeU5HbG5WMlY1YjB0eE1tOVlhMmRyUXpsMlZWTXdlSGhOYjJkS1JFVm5Sa2xCUkV0Sk5XSkVSMFpIZDNwUGFuSmlOMjVFZFhKM09XZDZNbUZ0WVc4NVVsOXNYMDVQVWxWM1IzUk5TVEZIU1VadlJFaFZhRUZxZVU5MlRXMFNGM0pvTjJOaGNIcHpTRjkyWVRGelVWQnFOeTFHYTBFNEdpSkJSSE55T1daVFQwMTFWMnBwWDJOMExWTlpNR3RUWkhaT1RYbDVPRkYzY2xwMw",
+      "title": "Senior ITSM Data Analytics Analyst",
+      "company": "Genesys",
+      "loc": "Madhavaram, Telangana",
+      "level": "Experienced",
+      "source": "LinkedIn",
+      "url": "https://in.linkedin.com/jobs/view/senior-itsm-data-analytics-analyst-at-genesys-4481365739",
+      "date": "2026-10-23"
+    },
+    {
+      "id": "bHNPSmhCbkNqODJuWjFLN0FBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTVzl3VFU4eFVqUTRkWEJKZUVwR1NqWnZiVlJxVmtWZlgwUkJNM0pUYVZVMlJsZDRlbE5FY0ZNd2FtUm9XRkpYVEhFNGRHdExWVVUzWlZoWWNtbGpUSG94TlUwMlQzRnJjVU5IYVhCdGQyMWhabkJGYTNwcU1GQlBOMmcxVERodE1IQktRV3hCZWpoMU4xUTFSWFo1YUZGQ2FtNXpXSEZsYkhSVFVYSXhhbWxpUVVGclJEWVNGM0pvTjJOaGNIcHpTRjkyWVRGelVWQnFOeTFHYTBFNEdpSkJSSE55T1daVUxYbFNRME41YVRKTWR5MDRSVlpZVkRSWFFYVktZMVJXVkZwbg",
+      "title": "Data Analyst",
+      "company": "Louis Dreyfus Company",
+      "loc": "Madurai-North taluk, Tamil Nadu",
+      "level": "",
+      "source": "LinkedIn",
+      "url": "https://in.linkedin.com/jobs/view/data-analyst-at-louis-dreyfus-company-4480035291",
+      "date": "2026-10-22"
+    },
+    {
+      "id": "MHd5UjFHYzM3bEhpZ1Y4QkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBURTF0VURnNFIweFdNVzVFYms5M1NuRnhZWFZ4TWpKWWRXRkVlbVJrU21aNU5YUjRZV3hMYmpaSk5HOXlVMlJHVkdZMGVFZG9iVE5UYjFsUU5FY3lYMVozVkU5VmEySnBkM2xSYzAxVlVuaDJabFJIUms4eU1Ib3hVazl6Tmtkb2MxQjBVbWROTjFCWFNYTmhOWFJ0ZVdsaU1sSk5jRjl0YnpkTGVXdExYMk41UjJWemQzZ1NGM0pvTjJOaGNIcHpTRjkyWVRGelVWQnFOeTFHYTBFNEdpSkJSSE55T1daU1V6UkVja0ZFUW1Wd1dIWkdjVjlTUkVwcE1sZzRXV1JxWnpkUg",
+      "title": "Health Care Data Analyst",
+      "company": "MedIntelx Healthcare Services Pvt Ltd",
+      "loc": "Hyderabad, Telangana",
+      "level": "",
+      "source": "SimplyHired",
+      "url": "https://www.simplyhired.co.in/job/4qe16RcAG7jRKOvz2WY3v-3r18_y5TbNmEPPY8DiNPf2oh4MhWTJZQ",
+      "date": "2026-10-22"
+    },
+    {
+      "id": "R0x5N2luNGF1WEpnWDRyUEFBQUFBQT09OkVzc0JDb3dCUVVwcFZEUjBTamRSYldWdWVGWkVORUpOWlc5SGJsSTNSVmRSZFZjMlpFNDBObVZIZGpWamVFZzVNalZ0UmtWVlV6bExjRWRqZUVzMlIyeFRjMGREWjFGeGJtdFpWRkp3UW10TUxYZGtVMlZzWW5WU1RWaERibTV6VUZwNmMzTkVSa1ZPT0dOaWIzVTBXR1ZKU2w4NU1VbHNiVUUwYzBWcE0wZ3paMjFvU2t4Rk1IWnpPUzAzVkdVMFNXY1NGblY0TjJOaGRtVnNUV1ZMVURKeWIxQjZaak5UUTFFYUlrRkVjM0k1WmxSMFpIaGFjMlZUZEhCcVVHdzNiR2xOZDJvelpFVktTR1UyWW5j",
+      "title": "Data Analyst - GA4, SQL, Snowflake, Tablue/PowerBI",
+      "company": "IND003 Thomson Reuters India Private Ltd",
+      "loc": "(Remote)",
+      "level": "",
+      "source": "Workday",
+      "url": "https://thomsonreuters.wd5.myworkdayjobs.com/en-US/External_Career_Site/job/Data-Analyst---GA4--SQL--Snowflake--Tablue-PowerBI_JREQ204358",
+      "date": "2026-10-22"
+    },
+    {
+      "id": "ajRKOXZLVV82UzZrZ3h6b0FBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBUR0kwZDI1aVZqQldZVWh2V1RoYVNuYzJRakpzZDFCVlpYaExTbVo1WkdSMmRrbExWRnBIVDFwZlVtaGtiMHBLYkVrM05YWmtTRVJYY0RoclR6WnNkMFpmZERSaVRGTlZPRE41T1RsNlRraGpXV3hWWVhGSVRtMXVOM2s0WjBjellXdHBjMk0xZGxac1NGTlFRMGxaTjNWME5VTjZRVU52VFcxVGVqUmFSV3hUZUdSR2VuUVNGM0pvTjJOaGNIcHpTRjkyWVRGelVWQnFOeTFHYTBFNEdpSkJSSE55T1daU2JESTBNMmxZVTBoVU1UUXljSEptWkROWkxVaHlYMnh0V2poUg",
       "title": "Data Analyst-Wholesale Banking",
       "company": "IDFC FIRST Bank",
       "loc": "Thane, Maharashtra",
       "level": "",
       "source": "LinkedIn",
       "url": "https://in.linkedin.com/jobs/view/data-analyst-wholesale-banking-at-idfc-first-bank-4481122323",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "UV9QNGJQWlQ0M0xBWnlGYUFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTbXByUTAxVFpHWlVOVWRFYm5sVFl6UklZV05SVWtWbVJVbExiVEEyUkVGZmFVUklNRlJwU0VwbWJURmtjVUZ2VTBwSU5VMVljVjltVGpZM05tRXpTbnBrTjA1S1UzaFNlRXRsUkV3M1YxQlRTVW80TUV0b1lsQjVjaTE1Y2tsUmFHTlFSVmMzVUc1eWR6UlhaamRWVTFWRldXMXliVmxOU1ZOT1pGUnRWRUZWUmpKVU1tTVNGM0pvTjJOaGNIcHpTRjkyWVRGelVWQnFOeTFHYTBFNEdpSkJSSE55T1daUmVVbFVVekpmVVRKck1VUXRiR1I0YVZkTlFub3RUbFpTVFhkQg",
+      "title": "Data Analyst",
+      "company": "Workwaves",
+      "loc": "",
+      "level": "",
+      "source": "Shine",
+      "url": "https://www.shine.com/jobs/data-analyst/workwaves/19877605",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "OEhfZzhFQ0xWSXpQSldlZEFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTa2N6VUhVMmJXcHVRbFptWHkxT1pVSkxUVzVUYlZSdWRtcFhWbEJ6VFU1dVpXNDFOMnh2Ylcwd1dEZHNaR2hTUWxodU9XTk9NRWhYZDFKUE4zTTRTSGxRZUcwd2NXcDBWRk5MZURaZldrOVhMV2RJYVhRdFVHTlFZV0pOUTAwd0xVZzFjRmxmVUcxTU0yTXdOREUyY0UxVlltdEJUR0ZuTlZKUVMwbDZUbUpDVkdaUExYb1NGM0pvTjJOaGNIcHpTRjkyWVRGelVWQnFOeTFHYTBFNEdpSkJSSE55T1daU2FIbGZlV0pzU1VzdGMwYzNVR2RPTjNNeVpXcHhVSEJFYjFobg",
+      "title": "Lead Data Analyst - Product Delivery",
+      "company": "Johnson Controls International",
+      "loc": "Pune, Maharashtra",
+      "level": "Experienced",
+      "source": "Johnson Controls Careers",
+      "url": "https://jobs.johnsoncontrols.com/job/WD30283023",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "TGdwZ3FlM21GN3dOWjJ0RUFBQUFBQT09OkVzc0JDb3dCUVVwcFZEUjBUSGRmT0dKaE9XZzBRbVpDV0VsVlFqVllhREJyYkZWMlowOVpibmhoV1dGVmNrZG9kVzB0Y0ZsR2FHbHFhVTFHVlVSTWFGOTRWRnBUWTNsb1NHUjBSeTB0UTJwSGEyNXJkMk5LYlZnMGNuWnliRVJCZUc0MVVXNWpiMFZEYjNCaWMyOXFRbDlGZFhCUVVXdDJTVXhMZFRGVlNUUlRja3hqU1RWdU5VOHplRkpVT0d0RU9IUVNGblY0TjJOaGRtVnNUV1ZMVURKeWIxQjZaak5UUTFFYUlrRkVjM0k1WmxFM1dHdzFNakpXTnpCa1VGRkZTbVpLYUZjM1ZUSm9XR3RuVVhj",
+      "title": "Data Analyst, Associate 2",
+      "company": "State Street Corporation",
+      "loc": "IN",
+      "level": "",
+      "source": "Bayt.com",
+      "url": "https://www.bayt.com/en/india/jobs/data-analyst-associate-2-75342451/",
+      "date": "2026-10-21"
+    },
+    {
+      "id": "QkwyOEtqbDMtZGU2OFk2OUFBQUFBQT09OkVzc0JDb3dCUVVwcFZEUjBURlprZEdsTExYVXdjbFZCYVZOVFVtZHdSell5UkhVMlExWlRXbkl5ZWpsSmJWSllNMkYzZFZKRGJFaExVV280VWtKRldGUkhNRnBpUzNRemJIVjJNRzVVU0U1UVNHbEhNbGczTjFwbWJXTnlRblZ2YkhOek0wSXhjVkJYYUhBeGJVVm9UM2x3TWtSbWJqRTVWbEJtTVRkSFVGQlNRMnRWYkZGM2FFNXVWbTVOVmtsemQwZ1NGblY0TjJOaGRtVnNUV1ZMVURKeWIxQjZaak5UUTFFYUlrRkVjM0k1WmxKd015MDFVMWhDYTJSbGFYZEVPVWd3TWxSMU5FSkRjR3hEY21j",
+      "title": "Clinical Data Analyst",
+      "company": "Labcorp",
+      "loc": "Bidadi, Karnataka",
+      "level": "",
+      "source": "Job Hai",
+      "url": "https://www.jobhai.com/technician-clinical-data-analyst-job-in-labcorp-bidadi-bangalore-4-to-6-plus-years-1792589888-8567975-jid",
       "date": "2026-10-21"
     },
     {
@@ -72,7 +162,7 @@
       "date": "2026-10-21"
     },
     {
-      "id": "UWhzUHRiMHNRNzJzV3VwY0FBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBUSFJtVkVKSVNVNDJSbEowV2pkbmVtUkRZMEpsUVRaMldVNUhiemh2U2xwMmJDMDRUbGd0T1VWVVVFWmlWMTlTUjNKQk5YRnNjekF4YTA5SmNFbGpUbE5SZW5SVFVGUnJObkY1WVhRNGFIaEhkR1ZzT0hVd2IxOUdOSE5WUm1GNGEwTlpRbTVCZG0xcldtTndURVI1Wm5wUFlqSlROVVE0Y1RkMWVVOTBjRXd0V1hKYVVWY1NGM1pqTTJGaGJ6STRTQzF1YlRWT2IxQjZUM1ZOTmtGckdpSkJSSE55T1daUk1UQm9WRmhDVmtWTWQxSmpVVWhxVG5SWFJuQjVZMjVUUVdSMw",
+      "id": "UWhzUHRiMHNRNzJzV3VwY0FBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTMjlzYTNSUmNHWlRkekZsVUc1WWQxZEtSM0ZEUTNsUFZFZzNRVVJZVEhocVFtTTNWMkp2V0RKSVRFMUlUSFJPU0hwQmJFaDJXUzFUV21kcWRYZDRObVYwZW5ORmNUSlhORTVXZVdJelJWUnNNM3BzZG1KblUzVTFiWEpzWVY5SlFsaHRNM2hQTjAxTk5WcEpNR1ZHZDBsd1MyTlRSRjh5T1VVMGQxSm5VaTFxVVRGSExXRVNGM0pvTjJOaGNIcHpTRjkyWVRGelVWQnFOeTFHYTBFNEdpSkJSSE55T1daU1QyTlZjVFZrWTBGaGVrUkdZMHhmTkU1bWVUWmxWbkZ2TlV0Qg",
       "title": "Data Analyst | Chennai, India",
       "company": "Hitachi Energy",
       "loc": "Chennai, Tamil Nadu",
@@ -82,7 +172,7 @@
       "date": "2026-10-20"
     },
     {
-      "id": "aFVCbzQ1dkpLWVNISFdTeUFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTWE5ZVkhNNVJreGtSbGx6ZHpOSlozVlBOMk4yYWxKU1IybG5jMUp4VURONVRXMUtjelZHV0U5TWJ6ZHlORW81U0RZMGNUbGxkbDl6TnpGNWR6RjVjMnRXWjFsM2JuTmxabk5zYUdablh6QndaVmRhWDFWTlUxcFRUM0kxWjFSNVdISkxlV0ZSZUZSeWNHaFlhbTE1YzBKc05YYzJjRVpTYVZBMmMzSndOMjlmVWs1VVpVTVNGM1pqTTJGaGJ6STRTQzF1YlRWT2IxQjZUM1ZOTmtGckdpSkJSSE55T1daVE5FeHdhV05YTTNwNFExQllNakUzWmxOYVMyZHFSMlJVWldSQg",
+      "id": "aFVCbzQ1dkpLWVNISFdTeUFBQUFBQT09OkVzc0JDb3dCUVVwcFZEUjBTbkp1VURaT2FqSnJORWh0ZURaeVMwaEhZWGM0VGtST04wRXRlRzVwUkVReFlWQlVPV1k0YlZoaWQyeEdZMjB3ZVhBd1ZFMVhaMDUyV1hWalRGVkxhVEZUUnpSMFlXSmxaVkZ0UVZjNU5FaFRUMjFIVG5velpWSXlTbVE0TTJsSU5GVlNXa3RqVkhGNVZGTkZkbTlZVDNJMlYxTlVjekZ6ZUZsaE5WVXhjR2h0U2pscVRGY1NGblY0TjJOaGRtVnNUV1ZMVURKeWIxQjZaak5UUTFFYUlrRkVjM0k1WmxKQlNtZE9ZMFZoWmxGV2NucFljVTVMVTBwWmVuSTRWR3BaZFZF",
       "title": "Data Analytics Analyst",
       "company": "Sanofi India Ltd",
       "loc": "Hyderabad, Telangana",
@@ -92,7 +182,7 @@
       "date": "2026-10-20"
     },
     {
-      "id": "c2hNNWx1WmZCVm5HakdQX0FBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBUR3BSYlVkdE1uQXRNVWR0ZHpSaFRFeGhRMDl5UjBGUkxXTkVkVlowYVRoR1NHZE5UMlpaUTNjd2VsQlNNVEpRWDFCcFVHOWtUMFk0ZHpZdGRHWktiRlJrTXprd00zRnpWVlI2Y1RsRGVUSllNVEJPWW5WWWFFRmFNRUZEVUZWRFpWVkZiVkZSVUVOM2NFUTRXV3R4ZDB4RVJUWlFSVVpPTm1KeFVtcGlkMDkxV2pZMllUWVNGM1pqTTJGaGJ6STRTQzF1YlRWT2IxQjZUM1ZOTmtGckdpSkJSSE55T1daUlRuTmZYMWxhU3kxM1VrbGlSRGxpZHpZNFVtaElXRmxITW5SQg",
+      "id": "c2hNNWx1WmZCVm5HakdQX0FBQUFBQT09OkVzc0JDb3dCUVVwcFZEUjBURzQzVHpCSmJGWlFiR0pJWDJ4aWNFTnVVbWwzUzI5eFJFVnJSRTlOTTI1RmEwUnBSa3hTTVRKQ04wbzJiMHd5T1VoNlUzWnVTMWxsYm01VVFpMHRaR1pwVW1GWExWZ3RRalJxYjB0eVRURnFWRVZ5ZGtOZlluWmpjalJQUzBZNFJqUTBTazlXV0ZSMU9FNWxWbm80WVVkeVVscExlV0ZhUVRRelgxOTRMWEp0WVZkV1FXUVNGblY0TjJOaGRtVnNUV1ZMVURKeWIxQjZaak5UUTFFYUlrRkVjM0k1WmxKcmJEWlhXRkZNTmpacVpGOW1Xa3REUms1QlQzQnlRWGRGT1ZF",
       "title": "Junior Data Analyst Internship",
       "company": "confidential",
       "loc": "IN",
@@ -142,16 +232,6 @@
       "date": "2026-10-20"
     },
     {
-      "id": "Q3drTnZJTDYxdWZ6VlNhc0FBQUFBQT09OkVzc0JDb3dCUVVwcFZEUjBUREpUVlcwd1RqRldXazk0V1U0MlZEY3lUbFZCZDI1NlYyZExhVkI1VDFSTlkydExjalpUZFROM2NDMTFUVGxJV1ROV09WTlFUVGR5ZFcxMU9UUnhNa2xCTjBOeldtMWFaVmRHV21acmRFZGtNR3QxVERNMU5VODVlbk0xWVRBeWNuUkNZaTFDWTA1V1YxUjJkVTB3VEhSaVVFdDJiMWxKTVVwclUzUTBhVGRsZGpBMGNXUVNGa1ZZZWxwaGNWTmpTVnBRZG5samExQjNaak41VFZFYUlrRkVjM0k1WmxObWRHSkJaWGxYWDE5Q1lVcExTVkJWVUd0MVVYTlpRMTl2Tm1j",
-      "title": "Data Analyst · Hybrid Remote (India)",
-      "company": "NTT Data",
-      "loc": "IN",
-      "level": "",
-      "source": "Jobrapido.com",
-      "url": "https://in.jobrapido.com/jobpreview/3383625127202652160",
-      "date": "2026-10-20"
-    },
-    {
       "id": "OHo0bkRKdTVFLVJkNThBYkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTMGxWV0RSUlZuZDFNaTFyVVZaRVJXa3RVbkF3U0dFdFdGcFRURWt4TlhFMGNrSkNTVk55WldOV1lYRlJia3BtVDFWWlEwMDBTV0pwTlhGR1gxSjFlVkExTlZSTFNWOU5SV3A2UjNKNkxVRlZlV3RVWjA5WFIxVlFObXQ1U3pBME5VbzFkamRVUzFOYWMxbEhWbEpFY1c5cU9IQkpTMDVOUkVJeVptTnpURXRNT0UxaVdXNFNGMWhEY2xsaGRVeFVTSFV5WkRWUFZWQm5Oa1JwWjBFd0dpSkJSSE55T1daUldXbEJZMFpNTFhwT1FtUldUVGxqVG1KVWFXYzVUMHg0Y0ZSMw",
       "title": "Senior Data Business Intelligence Report Developer - Assistant Manager",
       "company": "State Street",
@@ -162,7 +242,47 @@
       "date": "2026-10-20"
     },
     {
-      "id": "MGdsd3U4bTd4Y2w3Ny0xeUFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBUQzB6VWpaaFNWSllWVWgxZUdOeFRsOXBRMXBuWlZZelRsVlNPRmhvYmxOelFWcFNhSGwyYTBSWlRscG1VRnAwYUhaSGJWY3pYMFpmV0VGbFZYWkxYMFF6UzBSMk5HcDNVSFpLU1Y5S01tcGhaVUZHYTJaaGFEQkxMV1ZhYlZZdGVEUkVkbmM1Tm5sWmVVa3RSak5aWTBaQ05FRXpkMUpDTVhBdFYzUmhiM2t4Y21SeVoyNFNGM1pqTTJGaGJ6STRTQzF1YlRWT2IxQjZUM1ZOTmtGckdpSkJSSE55T1daU1l6VklWR1p0VkUxd01rUndRMFZaWDNSa05UaENXbEZ6ZGtoMw",
+      "id": "ZDBiWWktZGFtc213TFR0Y0FBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTa1F6YVU1a2JFVlljMGRwTTBrelZWTmljWGRLTms1cU56SldTMGxRYVhscWMxRkRNVUo0ZDE5VWMxaEJiVWR6ZFdodWNUZDZRM1pmV1haYVRWTlNiSEU0Tkd0TVZITnFaMkZoVm5CUGVVZEhha3B3T1V4VVVVTkpaVnBaU0ROaFRqZHBlWEExZUdJM1FVNHRabU5DUVdWVFRWVnRaR1V6UVdwTloyTkhXa0ZxVUhvMGJVMFNGM0pvTjJOaGNIcHpTRjkyWVRGelVWQnFOeTFHYTBFNEdpSkJSSE55T1daU1ZIaDRRWEl4VUZoaGVYazJOa1Z0V25SUlJuRXdkbWhUT0Mxbg",
+      "title": "Junior Data Analyst & Process Automation Associate Bengaluru (India)",
+      "company": "ALLEN Digital",
+      "loc": "IN",
+      "level": "Fresher",
+      "source": "SkillUp Global",
+      "url": "https://skillup.global/jobs/6ad96f0b953c277645c9e446",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "Nk9uVlhxbjl2b1NHNmFDWEFBQUFBQT09OkVzc0JDb3dCUVVwcFZEUjBTVzFOVlY5dFIyeHFia00zWVRCdVJIVXhTVEpOVVdSVlowMWtOakZuWVVScFJIVklVWE5hVEdaSWEwbElaVEZSZGs0emN6VkZaa0o0YWtSUE5sQTBNVE5oZFRGUFMxWldiMkp5V205dGIwSlVhbWxtYTB3eE1FNTZjMGxsTTBKc2VuZE5jRWxMWm5kcFUxQmpTRjlMUWt3NFNqVjFkV1pGYVc0M1FVMDNhVUpwYTBRM01Xd1NGblY0TjJOaGRtVnNUV1ZMVURKeWIxQjZaak5UUTFFYUlrRkVjM0k1WmxGdk5TMDJTbU5yY0ZkdWIzVnVlRXRHVEdKWGFuRjNkVzFOTUVF",
+      "title": "Director Data Analytics",
+      "company": "UnitedHealth Group",
+      "loc": "Noida, Uttar Pradesh",
+      "level": "Experienced",
+      "source": "UnitedHealth Group",
+      "url": "https://careers.unitedhealthgroup.com/job/noida/director-data-analytics/34088/102184983040",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "Q3drTnZJTDYxdWZ6VlNhc0FBQUFBQT09OkVzc0JDb3dCUVVwcFZEUjBTVnB4TVhOM1NXTlRkM0o2WlZsVFlraHpabG80VjJGYWJ6VkpReTAzVW1sdWNrMXRRalkwUzJoeGNqZFZOemhIY2xwMGFFVlNkek5qTVRGdllsVkxTRkJQWms1RlowZDVNbmhqUW5ZeVoyTXdUVGRxTVdOc2NuSk9NMkkyVlhadWEwTnpWV3BwV1Y4MFVYSTJkbnBTVVZBNVJ6TXdXakZSTWkxd1gyNXlXSGR1Y2t3d01VRVNGblY0TjJOaGRtVnNUV1ZMVURKeWIxQjZaak5UUTFFYUlrRkVjM0k1WmxORFluUkxZbFJEVlhaMGJFbFBWa1IxTUZCVGF6bDJVRXRrUTJj",
+      "title": "Data Analyst · Hybrid Remote (India)",
+      "company": "NTT Data",
+      "loc": "IN",
+      "level": "",
+      "source": "SkillUp Global",
+      "url": "https://skillup.global/jobs/6ad9372f52806bf84f6b06fe",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "d1oyLWlsTDdZa2tUU2dWUUFBQUFBQT09OkVzc0JDb3dCUVVwcFZEUjBTMDVRU1ZoR1lVSnpZMUJ2YzJKUVVHOXJXSFZvTUdrMVZpMVhjMk5WYzNWaWVWTTNRM0pHVVRCNE1EZEVTM0pNTFVwa05WZFRNR1U1WlVWdFZFUXdWVWRvTTFwWlowZHZYemxzTm05R00xOXFUMlpDUjJGNFEyTm5NWGxWZEU5cmJqTlBXSFpVUmtaMlJ6Qm9URGcwVkdoRFgzUlNhelZLU2xBMWNERjRiR05FWTNKVE1pMFNGblY0TjJOaGRtVnNUV1ZMVURKeWIxQjZaak5UUTFFYUlrRkVjM0k1WmxFdFFUWnNlV0pqUjE5NlJVWlVTV3hXZVhsc2RreE1Xa0p4ZWxF",
+      "title": "Data Analyst-Engineering & Construction",
+      "company": "Lloyd Insulations (India) Ltd",
+      "loc": "Delhi",
+      "level": "",
+      "source": "Indeed",
+      "url": "https://in.indeed.com/viewjob?jk=9821d5dca30b0805",
+      "date": "2026-10-19"
+    },
+    {
+      "id": "MGdsd3U4bTd4Y2w3Ny0xeUFBQUFBQT09OkVzc0JDb3dCUVVwcFZEUjBTamx4UzJNdFpFbGlZMTloUm5CMVJYQXpTMmRDYkZrMFZVcFNOR2RvVDJSQ2FIVlZORlV4T1ZsNlQyZDNZWGxJVGtwMFExSnBNbll3WlVGNGFsZHhhM0JPTms1UWNVNU1RekJpTlhsM056aG9ORkp1UWswNWJIbFJWMFJQVkRWNmFsOU1aVWROUzE5V1psTndWRTVUZUc1blUzUmhOblZCTkV0bFIwOVpNV3MyZEhsaFNITVNGblY0TjJOaGRtVnNUV1ZMVURKeWIxQjZaak5UUTFFYUlrRkVjM0k1WmxNeFMzZGhNSFJoTm1jMmIzQm9SaTFMYjBOMlEyNHpYMTlZYTBF",
       "title": "Assistant Manager - CRM (Data Analyst)",
       "company": "Tata CLiQ Fashion",
       "loc": "Mumbai, Maharashtra",
@@ -202,6 +322,16 @@
       "date": "2026-10-19"
     },
     {
+      "id": "VE9ScE9KMURBNFZSVGhqV0FBQUFBQT09OkVzc0JDb3dCUVVwcFZEUjBTVTlpWW10SFZVd3hVRWh6V200MVRsWlVWbXQ2U25ORlZHMVJZbEZVWHpsT1UyaHJhWEJSU25KVVl6VnRlRU0xTnpKMVlXWXdVR1p0VjBJeFRIWnFhWFZsUm14WFFUWlVkQzF4VDBkQ1dHMVNOMlpsUjBab1dIUlJRV05EVEUxRVNYQkNiVTFsYXpKMWMxVk5ZVTkwWVhGcVpIcGZSVGN3WDBKeFpreE9hWFpJU0hKaFMwZ1NGblY0TjJOaGRtVnNUV1ZMVURKeWIxQjZaak5UUTFFYUlrRkVjM0k1WmxKc1dIQjZSRGw2T1Vkc1dVNU1WbGh1TTI1RWFYaE9aa3cwTjFF",
+      "title": "GTM Data Analyst - WFO",
+      "company": "Aptita Consulting Partners",
+      "loc": "Secunderabad, Telangana",
+      "level": "",
+      "source": "Foundit",
+      "url": "https://www.foundit.in/job/gtm-data-analyst-wfo-aptita-consulting-partners-hyderabad-secunderabad-telangana-69500992",
+      "date": "2026-10-18"
+    },
+    {
       "id": "Q0l6VVNreGNFeFJCRWFPd0FBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTV0Z3UVVoMVNGWlFaVWxZYTJacFpXOWxXRzFSTkUxU1NUazNOMXBRVlV0SlNVNHpWbk5NY2twcE5USktlamRGV1dWaGQwbEZZbnBqVnpKaE4ySTFiVzVXV0ZBNE4xWkpRbXBaVG5OVWFtOUVNbGRQUjNkamNWSnpaRWhMTlZKb2NXbFRORWhSUzBoa2QxOTNXV3N4VVc1R2J6aEdPV2xEUWpCTVdVSlhkbWxyYTI5QmJXOFNGM1pqTTJGaGJ6STRTQzF1YlRWT2IxQjZUM1ZOTmtGckdpSkJSSE55T1daVVRtbHFWakpzUldwMFRGTk9Sblk1TTJSM05IQnJUVGRpUWpCMw",
       "title": "Data Analyst - Cloud  Development Engineering - Husky  India  Guindy  Chennai",
       "company": "Husky Technologies",
@@ -212,17 +342,7 @@
       "date": "2026-10-18"
     },
     {
-      "id": "VE9ScE9KMURBNFZSVGhqV0FBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBURU5DTmxsb05FZFBSbkIzTUdWTlUyNWhVMUIzZW5sU2FUTm1kbnAzV2s5MWRraDNjalZCZUVJeGJHVnlWbE51UnpGU05WWktOa2xPWVdKUFRHMHRkWGwxTFRoT09HSkdiV1ZTYWxwbWVUZzVZVTkzTFdwWFluVXpjMUZFVUdwbFdtNUZhVUZDUm1sV2JrMUVjblZUT1RsVWJFRk5kVkF3WlhCRVkwMWpNMlJOZGxaWFNWY1NGMFJZZWxwaGRIbGxRM1F0YldoMlkxQndOemRuZDBGSkdpSkJSSE55T1daU05HOUtUazh6TnpkTGJGTlBjVkZSYmxGRk1VUmlUbFZqWmtKUg",
-      "title": "GTM Data Analyst - WFO",
-      "company": "Aptita Consulting Partners",
-      "loc": "Secunderabad, Telangana",
-      "level": "",
-      "source": "Foundit",
-      "url": "https://www.foundit.in/job/gtm-data-analyst-wfo-aptita-consulting-partners-hyderabad-secunderabad-telangana-69500992",
-      "date": "2026-10-18"
-    },
-    {
-      "id": "NUNBb0xtdkFRdmxFclNPbkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBURTluUVdkUVYzRkVYMm8wVldwaVVXRnhkbE5OUjFaemRIbGZRMlJYVG5kR1h6Qk5PVFJHUWxwNU4xUkNUM3B5VG1vd05XRlpNbUYwWTBaM09HMXZPV1ZQV0dsMFVsYzJlRTU0Tm5jd09XNUpPQzFvWTNOVldDMUdaRXRwVWpscE4zVkdSSEZYZG1aV05WSmhhVU5NTjJwRFRUSlplakZKVDJka1ZsSnRORlk1VTB4WFdEVVNGM1pqTTJGaGJ6STRTQzF1YlRWT2IxQjZUM1ZOTmtGckdpSkJSSE55T1daUlN6VTVNM0pZVGtJeGIxOUtSMnRDWTA1T1NsQTRSVGxVTWxkbg",
+      "id": "NUNBb0xtdkFRdmxFclNPbkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTbG8wU1hKSWFtUmtkbEU1U25KWmFYRnlSR05UWkhKM1dYSkZNbU0wV0dWclZuRlRZbTU2VjNaYVdtSldjVGgwYVZoTFJuVk9aRll4UzNkTldHbHdiVlJEVTJaWFEyeHpSR1JGYmt4UFpVTnJOa2RvYkU5c1ZtSklhMlJ3TVVscWNreFhaelZmWjNCclZVNUNjSEZxWW5jNFNURnplVEo0Y1VGdlVubEtjazgyVUZsZlMxTVNGM0pvTjJOaGNIcHpTRjkyWVRGelVWQnFOeTFHYTBFNEdpSkJSSE55T1daU1QwRlRXbkkwTW0xVVYwTjNSVTFIWVZWeWMwRk9ZbWxVYWxSbg",
       "title": "Data Analyst - Experienced",
       "company": "New Vision Global Industries",
       "loc": "IN",
@@ -479,126 +599,6 @@
       "level": "Experienced",
       "source": "LinkedIn",
       "url": "https://in.linkedin.com/jobs/view/data-analyst-%2B-capital-market-lead-at-transformplus-4478857304",
-      "date": "2026-10-15"
-    },
-    {
-      "id": "eGhRNXpESmtYTU9zaEc4V0FBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTMkZIUVhGcVRrcE9RMjF2WTBGaWVXRnNVRFowYUU1QmRpMVpaVjg1TmpWeldreFdlbFpMVW1KalMybFZVREUxVFhsaGRGaGpjbFpKYUVkcFVVMUNhVmREYmxoek5reHhZMlJhU2pNeWRXcEtRbkJPVDJkZldtaHlRbk5UTWxwMVZXOVNVRGM0TW5CeFgwcHRibkIwU2tOUVUyeE9kR1ZyWDBsMFIzbzRTa2g0UVRZeFJrNFNGMWhEY2xsaGRVeFVTSFV5WkRWUFZWQm5Oa1JwWjBFd0dpSkJSSE55T1daVVFtRjFZM0EzYkdOWGVWWkdjMVZLTmxWYVVXeGtRMGxNVVZSUg",
-      "title": "Data Analyst H&M Group Data & AI Bangalore, India 8 hours ago",
-      "company": "Vochure",
-      "loc": "Bengaluru, Karnataka",
-      "level": "",
-      "source": "JobLeads",
-      "url": "https://www.jobleads.com/in/job/data-analyst-h-m-group-data-ai-bangalore-india-8-hours-ago--bengaluru--eb8d7f46e35b480b45b578bc77242d603",
-      "date": "2026-10-15"
-    },
-    {
-      "id": "ZjY4NjExV0xvendkQWx3Y0FBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTVkpUVFdSU04xcEVZelUzUlhjeWJIWndSRTFWVWkwNFNVTXdRM1JZTWxGS2RVdElkekp5VmtSUFZVNDBXVE42T0ZneWJsWnRaRVpIV0dwUlEwaElWR0pNVTNveU9VUTVSbVl6ZWpBd1FXWlBaSEJKVjJkbWMwSmFRV2xsVjE5dlNVMVhVbk5HTlhWcGJWVlhTRTFwZHpoWmMzTmlSbk5oTlRGV2VqaFRhbHBMTkdVeE1HUVNGMWhEY2xsaGRVeFVTSFV5WkRWUFZWQm5Oa1JwWjBFd0dpSkJSSE55T1daVFQzcDBla2RQTmpkVVZuaDVhbTlCZVZselVXRXdhRUpPUm5WMw",
-      "title": "Data Analyst + Capital Market Lead",
-      "company": "TRANSFORMPLUS",
-      "loc": "Bengaluru, Karnataka",
-      "level": "Experienced",
-      "source": "LinkedIn",
-      "url": "https://in.linkedin.com/jobs/view/data-analyst-%2B-capital-market-lead-at-transformplus-4478869021",
-      "date": "2026-10-15"
-    },
-    {
-      "id": "MEIzRnJ5VHBpWFVPZWo0ekFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBUSFJNVm5jdFFpMDJSMU5RZGxwaGNEYzFaazUxWjI5WWMyNW5hVkJCVjFCRmQyZGliSGwwYzJ3M1RsZDFaRFJXWjJoSlltRlpOMVphTmkxRk9HZHNORTU1YW5GUFpqbGFUR2szUTBVM1lsaEtSRGhuY0ZSdmJrOU9NMnRwZFZGdFEyeE5ZVjlmWm1KT2NXVTFPRTh4TjFaeGVUTmpSbmxoV0ZOa2NVMW1lSGx4UjNJemMxWVNGMWhEY2xsaGRVeFVTSFV5WkRWUFZWQm5Oa1JwWjBFd0dpSkJSSE55T1daVE9XaEJjRFJUYWtOdGIxZG9OQzEzYXpWU2JIaFBTRlZDZHpSQg",
-      "title": "Data &amp; Analytics",
-      "company": "Diageo",
-      "loc": "Bengaluru, Karnataka",
-      "level": "",
-      "source": "LinkedIn",
-      "url": "https://in.linkedin.com/jobs/view/data-amp-analytics-at-diageo-4478877007",
-      "date": "2026-10-15"
-    },
-    {
-      "id": "TEdTdy1WVWJ4aHNYUlM4bkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTMmQxZFc1TlVWSlpTRTlKZDBsWFEwazVPVzAzTXpZd2MyZzBaSFJzTkc1TVJsbFBXRWR6WDJaQmFuQmtOakJwYW1wc1duVjZZMDVXWDJSRmIxcGFZMGx2UWpNNGIyMVBWblo2YWxkcU1IQTRPSEl5ZVdWWWRGSTBTMVJVWVRFMFkyWTBjRzlTTFdVemVtMU5RMGxFWjFZdE0yTjZWV2hHVERoSlVWaHJiMHhEWjNSdWJsZ1NGMWxEY2xsaGRFTndRbk5FUzJ0UVNWQnJXa2RxTFZGRkdpSkJSSE55T1daUlJVUTNWRmxHZW5velZuRkJaR1puTUVKMU5ISmlWeTF6UTNWQg",
-      "title": "Data Quality Analyst",
-      "company": "Equinix",
-      "loc": "Bengaluru, Karnataka",
-      "level": "",
-      "source": "Equinix Careers",
-      "url": "https://careers.equinix.com/jobs/data-quality-analyst-bengaluru-karnataka-india",
-      "date": "2026-10-15"
-    },
-    {
-      "id": "ckZsTlRsYy1XcFI2SW5ZcEFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTbVExUzFGWmFtMVFZbWx3VlVKMVExZGlSM3BEVkZWdExWTmlVMDE0VmxONFRWcDJZVWd4YldkeU16RjVaVXBGUzA1UVdXMDRWRmwzUzFkbk1tNDJNbnBTU205NFRqbG5ZWHBqZEZrek1tTnZVMjExVjNBME9Wb3RWMnhsTWpCMVpYbHVaakJVV0Zwb1IxbHpNRkl3YW14eFJ6Qm1VekZaYXpRMmVIaGZWVFF4ZEhOYVZ6RVNGMWxEY2xsaGRFTndRbk5FUzJ0UVNWQnJXa2RxTFZGRkdpSkJSSE55T1daVFVuVjJXV1IxWHpkbVMzRm9YM05XZVhJNVdYY3dSRGxJZUVkUg",
-      "title": "Senior Analyst, Digital Analytics (L09)",
-      "company": "Synchrony Financial",
-      "loc": "",
-      "level": "Experienced",
-      "source": "Synchrony Financial",
-      "url": "https://www.synchronycareers.com/job/telangana/senior-analyst-digital-analytics-l09/49398/99517309216",
-      "date": "2026-10-15"
-    },
-    {
-      "id": "YXNhYy11RlY1dE9UTEh6RkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTVGMyT0ZsWWFsOXJVVFZYTkRjeE5qbDJNREpQTlVsMGRFMWhlRUoxTjAxWlpqQTRlRFV6Y3psaGFtbDJaa3B2YTI1eU5HRkNURTlaY0RCM1VqVmtiemhsT1UxTmVWZEJkVVJqVTFsTFVFOTRMUzFRVDJKeGFFcFJXSE5FWkc5RGRqSm9UVEZUVWt4Q01FVTFYM1pKUzFOaFRHMVZjbkp4YVhwYWNrMXNPWGx4WW5JMGNVb1NGelpPYWxkaGMzSXlTV1F5UkhBNE5GQTVUWHBOTWxFNEdpSkJSSE55T1daU1RUSjNWMWQzYkRGNU1XeDVUalZaTFRScldscGFZMU5UZVdsMw",
-      "title": "Data Analyst (Business Intelligence)",
-      "company": "Bluslashanalytics",
-      "loc": "Faridabad, Haryana",
-      "level": "",
-      "source": "LinkedIn",
-      "url": "https://in.linkedin.com/jobs/view/data-analyst-business-intelligence-at-bluslashanalytics-4478808885",
-      "date": "2026-10-15"
-    },
-    {
-      "id": "RGl4VDRLNVhTVllyV2hJWkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTMGRZVVhsdVFuRnFka0pLY0dJNGQxRmlhbXRMVm10S1VGSlFWMFpYTkZCTFZWaEVVbXAwTjBsalUxSnVXbmc0VGxSUmFVbGpNSEJ1VUZaYVEzVm9VbVJTVm05ellXSlJPVmh0VXpaQmRHVlFjMUJCYWxWNVEzTlFaV3czT0haWVoyOXliWGh0Ykd4eE16aGhhbnBWTFZCRFdrUmxiR3hyUTE5YWQwSmtiMUZGTVVoT2J6Y1NGMDF2WmxaaGRXNXdSblJ1WVhKMVJWQXljVmQyT0ZGbkdpSkJSSE55T1daVVZVRlBVbXRFVTFFdFJGZ3hRa2N6Vnpjd09ERnRhWEpTZDI5Ug",
-      "title": "Analyst, Big Data Analytics & Engineering",
-      "company": "Mastercard",
-      "loc": "Pune, Maharashtra",
-      "level": "",
-      "source": "Careers At Mastercard",
-      "url": "https://careers.mastercard.com/us/en/job/R-293356/Analyst-Big-Data-Analytics-Engineering",
-      "date": "2026-10-15"
-    },
-    {
-      "id": "Z0JjRGNXZF9NbndCeEYxaUFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBURWd4YlZkZk1FbFdlRkpzTnpoUFgwbFpjRmMxVEU5b1V6bDJjWGhaUWtFd2JUUTBabEpUWVhSV2NEWlBZMWhGTkdSalkzRjRZMFJhVjJ4TlUyNXhjamRsWlRkcE9UVnJURkJFTVRGeVduWnVVbEpPY2kxUVMwSlJkMWQ1Wm1sUVdsVkxUVzF3YmpobFUxOTVkVFJFYkdwb1JqbFZNakk1UjBJNFRHbHlaV0Z2TjFaUldsa1NGMDF2WmxaaGRXNXdSblJ1WVhKMVJWQXljVmQyT0ZGbkdpSkJSSE55T1daUk1USkVUR1V3Wm1WSFUwZFdkMEZUUkZNNWJXVjRjMGxJVmxkbg",
-      "title": "Senior Business Data Analyst - SQL and Cloud",
-      "company": "Early Career",
-      "loc": "Pune, Maharashtra",
-      "level": "Experienced",
-      "source": "Citi Careers",
-      "url": "https://jobs.citi.com/job/pune/senior-business-data-analyst-sql-and-cloud/287/102000078768",
-      "date": "2026-10-15"
-    },
-    {
-      "id": "T3VNd0IwSUdwRl83TkliVEFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTV1JTUTJWaFZqTkRWRTFsWmxoM1NGTkxSRUYyVVV0WWR6RXdlVFZpTkhaZkxYUnpUVFIxWmpoRVJqSTFaSGhwYm1kblFrTk9hWEpOV204NFltTlRaVE5EZEdwMVlUSklOV3hqWXpaTVNtRlRNVXRmVTJWZloxRkthMnRuWTJOYWMwcFpkbTV3VUc5UVdUWjBNa3BQTlZJdFJVUXdaMlU0WnpkT2VtbHpaV0ZUZGt0M1UzSVNGMFY2V0ZWaGRESnVTelZYZURWT2IxQjJTM1ZzY1ZFd0dpSkJSSE55T1daUmRXWnBOMmg2U21sdFNGbGphMGxNWm1nNGMzTmhORXR4VFdsUg",
-      "title": "Junior Data Analyst & Process Automation Associate",
-      "company": "ALLEN Digital",
-      "loc": "Bengaluru, Karnataka",
-      "level": "Fresher",
-      "source": "LinkedIn",
-      "url": "https://in.linkedin.com/jobs/view/junior-data-analyst-process-automation-associate-at-allen-digital-4478836793",
-      "date": "2026-10-15"
-    },
-    {
-      "id": "Q2pjY1ZNVmlzS1ZEc2t2SkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTbUZKWTBkdlJYZHVOa2RQYzFoa05YRkViRkZFWjJGeFNGUkxXV2hLVDFwNmVqRlpWamRqV2w4d01uQkJiREZLZURaU1JVVkhWSE5WUkhSVFJIWlRPSGt6YkdoRlVIRnpaRVJ0Y0dSalh6UmFNMmh3YWtwSmNUZEdhRmhIVEU5R2VGRXhZWFJTWkVaNlRrZG9lWEJXVTBWVGQwUkZSVnBzZVZodWVVOUpabU5rWlhGWk1Fb1NGMGRVV0ZWaGN6WnhVRXBoY3pWT2IxQnZkV2t5YjFGdkdpSkJSSE55T1daUlVXSkpUbUZxY1ZkNFlXRnhUMUpEYUhGM01GQlpUWFl5T0c5Mw",
-      "title": "REF101597D - Data Analyst - Python/Pandas/ Power BI - 2 to 4 years experience",
-      "company": "WNS Global Services",
-      "loc": "Pune, Maharashtra",
-      "level": "",
-      "source": "BeBee",
-      "url": "https://bebee.com/in/jobs/ref101597d-data-analyst-python-power-bi-2-to-4-years-experience-wns-global-services-pune--fj-2415686788",
-      "date": "2026-10-15"
-    },
-    {
-      "id": "Z0dGQl9TaXB4UWV3d292TUFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTMFYzTTFGbU1WZE9VMFU1YWt0SFNGTkhRbFk1T1UxemIzSk1VVkpVTTFnMVFrdHJUalprYlZWaFN6ZHVOR2QyU25KSlFrMHlORWxKWHkxdWEwWTRUSEZZVUU1S1kxbzVkSFl3YWpoSFZFSktkazVUZW1RMlVHSllOVVZFVms1c1FXeDRka1JYTVhwVU9VdGFOVW94VDBnNFUwRlNkWE5tYlRndGRHbFJiV05HVWxBNVppMFNGM0psVUZOaGNYbGFTRjlYVnpWUFRWQXRUMHR4TWtGWkdpSkJSSE55T1daU2N6bDRiRWR2VFU1c2VtdEtkbEZQYmtKd01WTXlZM0ZXUVdwQg",
-      "title": "Data Analyst_104591",
-      "company": "MyCareernet",
-      "loc": "Navi Mumbai, Maharashtra",
-      "level": "",
-      "source": "LinkedIn",
-      "url": "https://in.linkedin.com/jobs/view/data-analyst-104591-at-mycareernet-4477063039",
-      "date": "2026-10-15"
-    },
-    {
-      "id": "VldLelZzbUU1SC14aTZ0TEFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBURko0Tkd4aGQwbHFOa0ZrWmsxdFYxUlZVMWRvZDNKWFNEbFZSRjlmV1dONVZtODBhbmRrTlZGQmVHWnFUSFpTWldOWWMyMWZiREZTUVZNeFUwRnViVlZtT1VwblVtOXdiVTlNVmxadFQyMXRWemhRUlVOa2VFVkJaMDFRYUUwME5XTXlVSGg0ZDJGcllrdDFVVlJ2WWt0VlNFNHdPRWhXWVZsRFZTMWplR3M1VjBWa1NtY1NGM0psVUZOaGNYbGFTRjlYVnpWUFRWQXRUMHR4TWtGWkdpSkJSSE55T1daVWMyVXlSa1JGYTJwclZHdzBjalpITW1Wck0zaDNlRTFtUmtwQg",
-      "title": "Jr Data Analyst",
-      "company": "Heads Up For Tails",
-      "loc": "Gurugram, Haryana",
-      "level": "Fresher",
-      "source": "LinkedIn",
-      "url": "https://in.linkedin.com/jobs/view/jr-data-analyst-at-heads-up-for-tails-4478842339",
       "date": "2026-10-15"
     }
   ]
